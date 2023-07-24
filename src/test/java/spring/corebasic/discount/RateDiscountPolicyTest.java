@@ -1,9 +1,12 @@
 package spring.corebasic.discount;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import spring.corebasic.AppConfig;
 import spring.corebasic.member.Grade;
 import spring.corebasic.member.Member;
+import spring.corebasic.member.MemberService;
 
 import static org.assertj.core.api.Assertions.*;
 
