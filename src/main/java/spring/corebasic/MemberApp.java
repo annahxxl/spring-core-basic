@@ -1,4 +1,9 @@
-package spring.corebasic.member;
+package spring.corebasic;
+
+import spring.corebasic.member.Grade;
+import spring.corebasic.member.Member;
+import spring.corebasic.member.MemberService;
+import spring.corebasic.member.MemberServiceImpl;
 
 public class MemberApp {
 
