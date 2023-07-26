@@ -5,6 +5,7 @@ import spring.corebasic.member.Grade;
 import spring.corebasic.member.Member;
 
 @Component
+@MainDiscountPolicy
 public class RateDiscountPolicy implements DiscountPolicy{
 
     private int discountPercent = 10;
